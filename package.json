@@ -1,6 +1,7 @@
 {
   "name": "test-react-app",
   "version": "0.1.0",
+  "homepage": "https://www.venimitev.dev/playing-with-formik",
   "private": true,
   "dependencies": {
     "formik": "^2.2.9",
@@ -9,6 +10,8 @@
     "react-scripts": "^4.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

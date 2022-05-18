@@ -10,9 +10,8 @@ function Form() {
         password: ''
       },
   
-      onSubmit: values => {
+      onSubmit: (values) => {
         console.log(values);
-        alert("Login Succesful");
       },
   
       validate: values => {
@@ -34,20 +33,16 @@ function Form() {
   
     return (
       <div>
-        <form className="login-form" onSubmit={formik.handleSubmit}>
+        <form className="login-form" onSubmit={() => alert("Login Succesful")}>
             <h1>LOGIN</h1>
             
             <h3>Email</h3>
             <input id='email' type="text" onChange={formik.handleChange} value={formik.values.email} />
-                <div>
-                {formik.errors.email ? <div style={{color: 'red'}}>{formik.errors.email}</div> : <div></div>}
-                </div>
+              {formik.errors.email ? <div style={{color: 'red'}}>{formik.errors.email}</div> : <div></div>}
                 
             <h3>Password</h3>
             <input id='password' type="password" onChange={formik.handleChange} value={formik.values.password} />
-                <div>
-                {formik.errors.password ? <div style={{color: 'red'}}>{formik.errors.password}</div> : <div></div>}
-                </div>
+              {formik.errors.password ? <div style={{color: 'red'}}>{formik.errors.password}</div> : <div></div>}
         
             <button id="submitBtn" type="submit"><h3>Submit</h3></button>
         </form>
@@ -56,4 +51,3 @@ function Form() {
   }
   
   export default Form;
-  

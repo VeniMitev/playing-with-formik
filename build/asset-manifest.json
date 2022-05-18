@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/playing-with-formik/static/css/main.c13cb362.chunk.css",
+    "main.js": "/playing-with-formik/static/js/main.7fe5e5e8.chunk.js",
+    "main.js.map": "/playing-with-formik/static/js/main.7fe5e5e8.chunk.js.map",
+    "runtime-main.js": "/playing-with-formik/static/js/runtime-main.748584f7.js",
+    "runtime-main.js.map": "/playing-with-formik/static/js/runtime-main.748584f7.js.map",
+    "static/js/2.3aec7b19.chunk.js": "/playing-with-formik/static/js/2.3aec7b19.chunk.js",
+    "static/js/2.3aec7b19.chunk.js.map": "/playing-with-formik/static/js/2.3aec7b19.chunk.js.map",
+    "index.html": "/playing-with-formik/index.html",
+    "static/css/main.c13cb362.chunk.css.map": "/playing-with-formik/static/css/main.c13cb362.chunk.css.map",
+    "static/js/2.3aec7b19.chunk.js.LICENSE.txt": "/playing-with-formik/static/js/2.3aec7b19.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.748584f7.js",
+    "static/js/2.3aec7b19.chunk.js",
+    "static/css/main.c13cb362.chunk.css",
+    "static/js/main.7fe5e5e8.chunk.js"
+  ]
+}
