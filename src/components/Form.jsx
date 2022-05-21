@@ -33,7 +33,10 @@ function Form() {
   
     return (
       <div>
-        <form className="login-form" onSubmit={() => alert("Login Succesful")}>
+        <form className="login-form" onSubmit={(e) =>{
+            e.preventDefault();
+            alert("Login Succesful")
+          }}>
             <h1>LOGIN</h1>
             
             <h3>Email</h3>
